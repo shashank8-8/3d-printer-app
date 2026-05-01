@@ -1,14 +1,14 @@
 {
-    "name": "3d-printer-app-cloud",
-    "version": "1.0.0",
-    "description": "3D Printer Lab Management App",
-    "main": "backend/server.js",
-    "scripts": {
-          "start": "node backend/server.js",
-          "build": "cd frontend && npm install && npm run build && cd ../backend && npm install",
-          "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install"
-    },
-    "dependencies": {
-          "express": "^4.18.2"
-    }
+  "name": "3d-printer-app-cloud",
+  "version": "1.0.0",
+  "description": "3D Printer Lab Management App",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "build": "cd frontend && npm install && npm run build && cd ../backend && npm install",
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
